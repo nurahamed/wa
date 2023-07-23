@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import { ThemeProvider } from '@mui/material/styles'
+import { theme } from './theme/theme'
+import { DashboardContainer, MiddleContainer } from './theme/styled'
+import { Routes, Route } from 'react-router-dom'
+import { Dashboard, Map, Saves } from './pages/allPages'
+import TopNav from './components/TopNav'
+import WeatherDisplay from './components/WeatherDisplay'
+import LeftNav from './components/LeftNav'
+import Footer from './components/Footer'
+  
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      hello  world
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
