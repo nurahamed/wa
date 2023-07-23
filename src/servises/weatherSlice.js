@@ -15,5 +15,18 @@ import { createSlice } from "@reduxjs/toolkit";
             state.location = action.payload
         },
         
+        setFahrenheit: (state, action)=>{
+            state.fahrenheit = action.payload
+        },
+        setSaves: (state, action)=>{
+            state.saves = action.payload
+        },
+        setItemSaves: (state, action)=>{
+            state.itemSaved = action.payload
+        },
+
     }
  })
+
+ export const { setLocation, setFahrenheit, setItemSaves, setSaves} = weatherSlice.action
+export default  weatherSlice.reducer
