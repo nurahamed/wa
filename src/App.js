@@ -9,6 +9,7 @@ import TopNav from "./components/TopNav";
 import WeatherDisplay from "./components/WeatherDisplay";
 import Footer from "./components/Footer";
 
+
 const App = () => {
   return ( 
     <div>
