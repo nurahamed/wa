@@ -5,7 +5,7 @@ import { Box, Typography, Stack, Divider } from '@mui/material';
 import { useGetForecastWeatherQuery } from '../servises/weatherApi';
 import Moment from 'react-moment'
 import useGeoLocation from '../hooks/useGeolocation';
-import weatherChart  from '../components/Chart'
+import WeatherChart  from '../components/Chart'
 import TodaysOverview from '../components/TodaysOverview'
 import SearchBar from '../components/Searchbar'
 import ThreeDayForecast from '../components/ThreeDayForecast'
@@ -37,8 +37,8 @@ const Dashboard = () => {
 
 
   if (isFetching || !isLoadingLocation) return (
-    <div> loading </div>
-      // <Loader /> 
+    // <div> loading </div>
+      <Loader /> 
   )
 
   return (
@@ -56,10 +56,10 @@ const Dashboard = () => {
         <SearchBar location={location} />
     </Stack>
     
-    {/* <Divider light /> */}
-    {/* <TodaysOverview current={current} forecast={forecast} />
+    <Divider light />
+    <TodaysOverview current={current} forecast={forecast} />
         <ThreeDayForecast forecast={forecast} />
-        <WeatherChart forecast={forecast} /> */}
+        <WeatherChart forecast={forecast} /> 
 </Box>
   )
 }
