@@ -20,8 +20,10 @@ const App = () => {
           <MiddleContainer> 
             <Routes>
               <Route path="/" element = { <Dashboard/>}/>
+              <Route path="/map" element = { <Map/>}/>
             </Routes>
           </MiddleContainer>
+          <WeatherDisplay/>
         </DashboardContainer>
       </ThemeProvider>
     </div>
