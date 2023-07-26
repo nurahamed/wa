@@ -56,26 +56,26 @@ const Searchbar = ({ location }) => {
     dispatch(setSaves([...itemList]))
   }
 
-  // useEffect(() => {
-  //   // save to local storage
-  //   localStorage.setItem('savedItems', JSON.stringify(saves))
+  useEffect(() => {
+    // save to local storage
+    localStorage.setItem('savedItems', JSON.stringify(saves))
 
-  //   const savedItems = JSON.parse(localStorage.getItem('savedItems'))
-  //   if (savedItems) {
-  //     for (let i = 0; i < savedItems.length; i++) {
-  //       if (savedItems[i].name === location.name) {
-  //         setSelected(true)
-  //         dispatch(setItemSaved(true))
-  //         // break to stop statement from throwing false
-  //         break
-  //       } else if (savedItems[i].id !== location.name) {
-  //         setSelected(false)
-  //         dispatch(setItemSaved(false))
-  //       }
-  //     }
-  //   }
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [saves])
+    const savedItems = JSON.parse(localStorage.getItem('savedItems'))
+    if (savedItems) {
+      for (let i = 0; i < savedItems.length; i++) {
+        if (savedItems[i].name === location.name) {
+          setSelected(true)
+          dispatch(setItemSaved(true))
+          // break to stop statement from throwing false
+          break
+        } else if (savedItems[i].id !== location.name) {
+          setSelected(false)
+          dispatch(setItemSaved(false))
+        }
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [saves])
 
 
   return (

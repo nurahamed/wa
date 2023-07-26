@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Mapbox from '../components/Mapbox'
 import News from '../components/News';
 import { Box, Stack } from '@mui/material';
@@ -9,7 +9,7 @@ import { useGetForecastWeatherQuery } from '../servises/weatherApi';
 // import { useGetSearchWeatherQuery } from '../servises/weatherApi';
 import { useGetWeatherNewsQuery } from '../servises/newsApi'
 import Loader from '../components/Loader';
-
+import { fetchNewsApi } from '../servises/newsApi';
 
 const Map = () => {
   const getGeoLocation = useGeoLocation()
@@ -21,6 +21,9 @@ const Map = () => {
   const location = data?.location
   const current = data?.current
 
+
+  const [ news, setNews] = useState([])
+
   useEffect(() => {
     let currentLocation = ''
     if (locationState) {
@@ -31,6 +34,13 @@ const Map = () => {
     // eslint-disable-next-line
   }, [getGeoLocation])
 
+  //  useEffect(()=>{
+  //   const newsData = ayanc (location) => {
+  //     const getNews = await fetchNewsApi(location);
+  //     setNews( getNews)
+  //   }
+  //   newsData(location?.region)
+  //  }, [])
 
   // const { data: news } = useGetWeatherNewsQuery(location?.region)
 

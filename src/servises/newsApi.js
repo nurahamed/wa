@@ -1,32 +1,24 @@
-// import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+const url = `https://bing-news-search1.p.rapidapi.com/news/`;
+const options = {
+	method: 'GET',
+	headers: {
+		'X-BingApis-SDK': 'true',
+		'X-RapidAPI-Key': '25e395749fmsh42328a5f7a739d9p11db61jsn390a0331a3ae',
+		'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
+	}
+};
 
-// const baseUrl = `https://bing-news-search1.p.rapidapi.com`
+export const  fetchNewsApi = async (location)=>{
+    const res = await fetch(`${url}search?q=${location}%weather&freshness=Day&textFormat=Raw&safeSearch=Off`, options)
+    const  data = await  res.json()
+    return data
+}
 
-// const newsHeaders = {
 
-    
-// 'X-BingApis-SDK': 'true',
-// 'X-RapidAPI-Key': 'a4e4f7ed6amsh72a522334b2307dp161e6ejsn2b86226008b5',
-// 'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
-
-//     // 'X-RapidAPI-Key': '0ba0a04913msh9d52f6d879fba2dp10df41jsnb342505a8317',
-//     // 'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
+// try {
+// 	const response = await fetch(url, options);
+// 	const result = await response.text();
+// 	console.log(result);
+// } catch (error) {
+// 	console.error(error);
 // }
-
-
-
-// const requestNews = (url) => ({ url, headers: newsHeaders })
-
-// export const newsApi = createApi({
-//     reducerPath: 'newsApi',
-//     baseQuery: fetchBaseQuery({ baseUrl }),
-//     endpoints: (builder) => ({
-//         getWeatherNews: builder.query({
-//             query: (location) => requestNews(`/search?q=${location}%20Weather&freshness=Day&textFormat=Raw&safeSearch=Off`)
-//         }),
-//     })
-// })
-
-
-
-// export const { useGetWeatherNewsQuery } = newsApi
