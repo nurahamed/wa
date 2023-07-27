@@ -9,19 +9,38 @@ Open (https://climatecondition1.netlify.app/) to view it in your browser.
 ## User Guide
 On the left side of the web app, you can switch between three Tab.\
 
-### First  `-- Dashboard--`
+### First `-- Dashboard--`
 when you click dashboard you redirect to the application dashboard.\
 where you can see the weather details.
 
-### `Second -- Map --1`
+### Second `-- Map --1`
 
 You can also see the geographical location in your current location.\
-also you can search here. the map section is under development.
+also, you can search here. the map section is under development.
 
-###  `Third -- Saves-- `
+###  Third  `-- Saves-- `
 
 Here you can see the all saved paces .\ 
 and you can delete them by clicking the delete button
+
+
+### On the dashboard./
+you can search any country and city name by typing the name in the search box.\
+after that corresponding weather data as Todays Overview.\
+
+### Forecast
+
+You can see the weather update by clicking on SHOW DAILY.\
+Then it shows the update in 3 days.\
+
+You can see the weather update by clicking on SHOW HOURLY.\
+Then it shows the 5 hours of future weather updates.
+
+
+
+
+
+
 
 
 ## Available Scripts
