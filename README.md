@@ -20,10 +20,8 @@ also, you can search here. the map section is under development.
 
 ###  Third  `-- Saves-- `
 
-Here you can see all the saved paces and you can delete them by clicking the delete button.\
-If there is no place save then you have to add places by clicking on the `Star Symbol` beside the search box.\
-
-
+Here you can see all the saved paces and delete them by clicking the `delete button`.\
+If there is no place save then you have to add places by clicking on the `Star Symbol` right side of the search box on the top.
 
 ## On the dashboard.
 you can search any country and city name by typing the name in the search box.\
@@ -37,7 +35,19 @@ Then it shows the update in 3 days.
 You can see the weather update by clicking on SHOW HOURLY.\
 Then it shows the 5 hours of future weather updates.
 
+## Right side of the web app
 
+ Here you can see your current location or the location search by you,\
+ and the corresponding weather information which is updating dynamically.\
+
+
+ ### **Fahrenheit and Celsius **
+ You can change the weather information to  Fahrenheit or Celsius by clicking  on the \
+ `Fahrenheit` button and `Celsius` button and vice versa.
+ 
+ 
+ 
+ 
 
 
 
