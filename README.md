@@ -20,8 +20,9 @@ also, you can search here. the map section is under development.
 
 ###  Third  `-- Saves-- `
 
-Here you can see the all saved paces .\ 
-and you can delete them by clicking the delete button
+Here you can see all the saved paces and you can delete them by clicking the delete button.\
+If there is no place save then you have to add places by clicking on the `Star Symbol` beside the search box.\
+
 
 
 ## On the dashboard.
