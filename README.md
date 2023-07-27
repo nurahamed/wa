@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## You can see the project live 
+
+Open (https://climatecondition1.netlify.app/) to view it in your browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
