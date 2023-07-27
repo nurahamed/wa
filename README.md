@@ -13,7 +13,7 @@ On the left side of the web app, you can switch between three Tab.\
 when you click dashboard you redirect to the application dashboard.\
 where you can see the weather details.
 
-### Second `-- Map --1`
+### Second `-- Map --`
 
 You can also see the geographical location in your current location.\
 also, you can search here. the map section is under development.
@@ -24,14 +24,14 @@ Here you can see the all saved paces .\
 and you can delete them by clicking the delete button
 
 
-### On the dashboard./
+## On the dashboard.
 you can search any country and city name by typing the name in the search box.\
-after that corresponding weather data as Todays Overview.\
+after that corresponding weather data as Todays Overview.
 
 ### Forecast
 
 You can see the weather update by clicking on SHOW DAILY.\
-Then it shows the update in 3 days.\
+Then it shows the update in 3 days.
 
 You can see the weather update by clicking on SHOW HOURLY.\
 Then it shows the 5 hours of future weather updates.
