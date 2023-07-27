@@ -16,7 +16,8 @@ where you can see the weather details.
 ### Second `-- Map --`
 
 You can also see the geographical location in your current location.\
-also, you can search here. the map section is under development.
+also, you can search here. `the map section is under development.`
+It is not possible to finish all the functionality in just 5 days. 
 
 ###  Third  `-- Saves-- `
 
@@ -29,23 +30,28 @@ after that corresponding weather data as Todays Overview.
 
 ### Forecast
 
-You can see the weather update by clicking on SHOW DAILY.\
+You can see the weather update by clicking on `SHOW DAILY`.\
 Then it shows the update in 3 days.
 
-You can see the weather update by clicking on SHOW HOURLY.\
+You can see the weather update by clicking on `SHOW HOURLY`.\
 Then it shows the 5 hours of future weather updates.
 
 ## Right side of the web app
 
- Here you can see your current location or the location search by you,\
- and the corresponding weather information which is updating dynamically.\
+### On the top
 
+ Here you can see your current location or the location search by you,\
+ and the corresponding weather information which is updating dynamically.
 
  ### **Fahrenheit and Celsius **
+ 
  You can change the weather information to  Fahrenheit or Celsius by clicking  on the \
  `Fahrenheit` button and `Celsius` button and vice versa.
  
+ ### `Chance of rain`
  
+ Here you can see the Chance of rain upcoming 4 hours.\
+ after that, you can see the Sunrise & Sunset timing
  
  
 
