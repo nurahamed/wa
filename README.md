@@ -54,7 +54,17 @@ Then it shows the 5 hours of future weather updates.
  Here you can see the Chance of rain upcoming 4 hours.\
  after that, you can see the Sunrise & Sunset timing
  
-  ------------ -------------- -------------- -------------- ------------ ---------- ---------- 
+ 
+
+# Login page, dark and light mode is is under development 
+`here is the link` 
+
+Open (https://climatecondition1.netlify.app/) to view it in your browser.
+
+
+
+ ------------ -------------- -------------- -------------- ------------ ---------- ---------- 
+  
 ## Available Scripts
 
 In the project directory, you can run:
