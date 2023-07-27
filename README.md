@@ -61,7 +61,7 @@ Then it shows the 5 hours of future weather updates.
 # Login page, dark and light mode is is under development 
 `here is the link` 
 
-Open (https://climatecondition1.netlify.app/) to view it in your browser.
+Open (https://drive.google.com/drive/folders/1hRGxXzTkdyiwVl7VQP0xc6lbQEMYBHR9?usp=drive_link) to view it in your browser.
 
 
 
