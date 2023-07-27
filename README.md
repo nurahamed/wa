@@ -7,13 +7,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Open (https://climatecondition1.netlify.app/) to view it in your browser.
 
 ## User Guide
-On the left side of the web app, you can switch between three Tab, 
-First  -- Dashboard--
-when you click dashboard you redirect to the application dashboard where you can see the weather details.
-Second -- Map --
-You can also see the geographical location in your current location and also you can search here. the map section is under development.
-Third -- Saves-- 
-Here you can see the all saved paces, and you can delete them by clicking the delete button
+On the left side of the web app, you can switch between three Tab.\
+
+### First  `-- Dashboard--`
+when you click dashboard you redirect to the application dashboard.\
+where you can see the weather details.
+
+### `Second -- Map --1`
+
+You can also see the geographical location in your current location.\
+also you can search here. the map section is under development.
+
+###  `Third -- Saves-- `
+
+Here you can see the all saved paces .\ 
+and you can delete them by clicking the delete button
 
 
 ## Available Scripts
