@@ -7,9 +7,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Open (https://climatecondition1.netlify.app/) to view it in your browser.
 
 ## User Guide
-On the left side of the web app, you can switch between three Tab.\
+On the left side of the web app, you can switch between three Tab.
 
 ### First `-- Dashboard--`
+
 when you click dashboard you redirect to the application dashboard.\
 where you can see the weather details.
 
@@ -53,13 +54,7 @@ Then it shows the 5 hours of future weather updates.
  Here you can see the Chance of rain upcoming 4 hours.\
  after that, you can see the Sunrise & Sunset timing
  
- 
-
-
-
-
-
-
+  ------------ -------------- -------------- -------------- ------------ ---------- ---------- 
 ## Available Scripts
 
 In the project directory, you can run:
