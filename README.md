@@ -9,6 +9,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Open (https://climatecondition1.netlify.app/) to view it in your browser.
 
 ## User Guide
+
+# First, You have to turn on your location services on your device.
+
 On the left side of the web app, you can switch between three Tab.
 
 ### First `-- Dashboard--`
